@@ -311,7 +311,7 @@ cd $INSTRUCTOR_REPO
 # Copiar arquivos para seu repo
 cp -r app $STUDENT_REPO/
 cp -r config $STUDENT_REPO/
-cp package.json package-lock.json server.js Dockerfile docker-compose.yaml .dockerignore .gitignore .justfile $STUDENT_REPO/
+cp package.json package-lock.json server.js Dockerfile compose.yml .dockerignore .gitignore .justfile $STUDENT_REPO/
 
 # Ir para seu repo
 cd $STUDENT_REPO
